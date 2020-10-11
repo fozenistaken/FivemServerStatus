@@ -158,14 +158,14 @@ exports.start = function(SETUP) {
   const UpdateEmbed = function() {
     let dot = TICK_N % 2 === 0 ? 'Roofstad' : 'Roleplay';
     let embed = new Discord.RichEmbed()
-    .setAuthor("VinityRP Server Status", "https://cdn.discordapp.com/attachments/580680574369398794/582249284825776148/logo_vinity_end.png")
+    .setAuthor("sunucuadı Server Durumu", "<logo linki>")
     .setColor(0x2894C2)
-    .setFooter(TICK_N % 2 === 0 ? '⚪ VinityRP' : '⚫ VinityRP')
+    .setFooter(TICK_N % 2 === 0 ? '⚪ Sunucuadı' : '⚫ Sunucu adı')
     .setTimestamp(new Date())
-    .addField('\n\u200b\nHoe kan je de server joinen?','Je kan de server joinen doormiddel van **vinityrp.nl** in te voeren bij Direct Connect. Onderaan staat de server status om te kijken hoeveel mensen er online zijn en in de wachtrij staan. Dit systeem is gemaakt door [Douile](https://github.com/Douile/)\n\u200b\n',false)
+    .addField('\n\u200b\nSunucuya nasıl katılabilirsiniz? ',' Direct Connect'e ** ipniz ** girerek sunucuya katılabilirsiniz. \nEn altta, kaç kişinin çevrimiçi ve sırada olduğunu görmek için sunucu durumu bulunur. \nBu sistem [Douile] (https://github.com/Douile/) tarafından yapılmıştır')
     if (STATUS !== undefined)
     {
-      embed.addField(':warning: Actuele server status:',`${STATUS}\n\u200b\n`);
+      embed.addField(':warning: Anlık server durumu:',`${STATUS}\n\u200b\n`);
       embed.setColor(0xff5d00)
     }
     return embed;
