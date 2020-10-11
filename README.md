@@ -3,6 +3,10 @@ FiveM Server Status Discord Bot
 
 FiveM sunucuları ve bir discord topluluğu ile etkileşim için işlevsellik sağlayan özel bir discord botu
 
+## Tavsiye
+
+- Eğer bilgin yoksa hiç girişme
+
 ## Gereksinimler:
 
 - fivemqueue bulunmalı
