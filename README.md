@@ -3,36 +3,35 @@ FiveM Server Status Discord Bot
 
 A custom discord bot providing functionality for interacting with fiveM servers and a discord community.
 
-## Requirements:
+## Gereksinimler:
 
-- Included fivemqueue
-I have edited the source code of https://github.com/anderscripts/FiveM_Queue and added that it will change the queue count in the    vars so it will update accurate.
+- fivemqueue bulunmalı
 
-## Setup
+## Kurulum
 
-1. Add the included fivemqueue to your server resources
-2. Start the fivemqueue in your server.cfg
-3. Set enviroment variables as described below
+1. fivemqueue dosyasını paketinizi ekleyin
+2. server.cfg den startını verin
+3. AAşağıdakideğişkenleri kendinize göre ayarlayın
 
 ```
-URL_SERVER - base url for fiveM server e.g. http://127.0.0.1:3501 (don't end with /)
-LOG_LEVEL - Int of enum 0-4 specifying level of logs to display with 4 as no logs
-BOT_TOKEN - Discord bot token
-CHANNEL_ID - channel id for updates to be pushed to
-MESSAGE_ID - message id of previous update to edit (not required)
-SUGGESTION_CHANNEL - channel to create suggestion embeds in
-BUG_CHANNEL - channel to recieve bug reports
-BUG_LOG_CHANNEL - channel to log bug reports
-LOG_CHANNEL - channel to log status changes
+URL_SERVER - server urlniz örn. http://127.0.0.1:3501 (sonuna `/` koymayın)
+LOG_LEVEL - 0-4 arasında bişey yazın (size kalmış)
+BOT_TOKEN - Discord bot tokeniniz
+CHANNEL_ID - serveriniin loglarının atılacağı kanal idsi
+MESSAGE_ID - editlenecek mesaj idsi (gerekli değil)
+SUGGESTION_CHANNEL - öneri kanalı idsi
+BUG_CHANNEL - bugların raporlanacağı kanalın idsi
+BUG_LOG_CHANNEL - raporlanan bugların atılacağı kanal idsi
+LOG_CHANNEL - log kanalı
 ```
-## Running
+## Çalıltırma
 1. `npm i`
 2. `npm start` or `node ./index.js`
 
 
-## Commands
-1. +status <Message> to add a warning message in the server status embed.
-2. +status clear to clear the warning message.
+## Komutlar
+1. +status <Message> status komutuna eklenecek mesaj.
+2. +status status komutuna eklenen mesajı sıfırlama.
   
 ![Screenshot](https://media.discordapp.net/attachments/424886239410388992/625739298846801936/unknown.png)
 
