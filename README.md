@@ -1,7 +1,7 @@
 # FiveM Server Status
 FiveM Server Status Discord Bot
 
-A custom discord bot providing functionality for interacting with fiveM servers and a discord community.
+FiveM sunucuları ve bir discord topluluğu ile etkileşim için işlevsellik sağlayan özel bir discord botu
 
 ## Gereksinimler:
 
