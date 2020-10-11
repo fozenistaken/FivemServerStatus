@@ -11,7 +11,7 @@ FiveM sunucuları ve bir discord topluluğu ile etkileşim için işlevsellik sa
 
 1. fivemqueue dosyasını paketinizi ekleyin
 2. server.cfg den startını verin
-3. AAşağıdakideğişkenleri kendinize göre ayarlayın
+3. Aşağıdaki değişkenleri kendinize göre ayarlayın
 
 ```
 URL_SERVER - server urlniz örn. http://127.0.0.1:3501 (sonuna `/` koymayın)
@@ -24,7 +24,7 @@ BUG_CHANNEL - bugların raporlanacağı kanalın idsi
 BUG_LOG_CHANNEL - raporlanan bugların atılacağı kanal idsi
 LOG_CHANNEL - log kanalı
 ```
-## Çalıltırma
+## Çalıştırma
 1. `npm i`
 2. `npm start` or `node ./index.js`
 
